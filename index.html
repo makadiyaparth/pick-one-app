@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container layout">
+      <div class="center title">PickOne App</div>
+
+      <section>
+        <input
+          type="text"
+          name="item"
+          id="item-inp"
+          class="w-full"
+          placeholder="Input item here and hit “Enter” to add to list"
+        />
+        <p class="info-text">
+          Comma separated values are also supported. Eg. Mango, Apple (will add
+          both as separate items)
+        </p>
+      </section>
+
+      <div id="items" class="items flex-grow"></div>
+
+      <div class="center">
+        <button id="pick-one-btn" class="btn-lg">Pick One</button>
+      </div>
+    </div>
+
+    <div class="popup-overlay">
+      <div class="popup-content">
+        <p id="result"></p>
+        <button class="close btn-sm">Close</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const items = ["Apple", "Mango", "Orange"];
+const items = [];
 
 renderItems();
 

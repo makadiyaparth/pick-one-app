@@ -1,6 +1,6 @@
 # PickOne App
 
-## Randomly select
+## Randomly Select
 
 Using this utility app, you can randomly select something from the list of items you provide.
 
